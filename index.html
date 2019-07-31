@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <title>BestePoisk</title>
-</head>
-<nav class="navbar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <title>foscc</title>
+  </head>
+  <nav class="navbar">
     <div class="container">
-            <a href="index.html" class="navbar-brand">BestePoisk</a>
+      <a href="index.html" class="navbar-brand">foscc search</a>
     </div>
-</nav>
-<body>
-    <div class="contain">
-        <div class="jumbotron">
-            <form id="search-form">
-                <input type="text" class = "form-control" id = "search-text">
-
-            </form>
-        </div>
+  </nav>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h3 class="text-center">what's your wish?</h3>
+        <form id="search-form">
+          <input 
+            type="text"
+            class="form-control"
+            id="search-text"
+            placeholder="type it here.."
+          />
+        </form>
+      </div>
     </div>
     <div class="container">
-        <div id="movies" class="row">
-
-        </div>
+      <!-- here we'll have our output -->
+      <div id="movies" class="row"></div>
     </div>
 
-
+    <!-- here we're connectiong js file -->
     <script src="./script.js "></script>
-</body>
+  </body>
 </html>
